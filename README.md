@@ -14,13 +14,13 @@
 
 <!-- PROJECT OVERVIEW -->
 
-# 📖 Project Description
+## 📖 Project Description
 
 This is the Capstone project for the Introduction to Software Engineering Program! The project is my personal portfolio
 
 <!-- Features and Functionalities-->
 
-### 💻 Features
+## 💻 Features
 
 Key Features: Local Storage for Form Data
 
@@ -30,7 +30,7 @@ Key Features: Local Storage for Form Data
 
 <!--Technologies used-->
 
-### 🛠 Technologies
+## 🛠 Technologies
 
 I've created it using HTML, CSS and JavaScript.
 
@@ -44,7 +44,7 @@ I've created it using HTML, CSS and JavaScript.
 
 <!--Roadmap and future enhancements-->
 
-### 🔭 Future Enhancements
+## 🔭 Future Enhancements
 
 - User-Friendly Reset Option For Form
 - Code Refactoring
