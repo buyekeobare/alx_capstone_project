@@ -5,14 +5,11 @@
 # 📗 Table of Contents
 
 - [📖 About the Project](#about-project)
-  - [🚀 Live Demo](#live-demo)
-- [💻 Getting Started](#getting-started)
-  - [Setup](#setup)
-  - [Prerequisites](#prerequisites)
-  - [Install](#install)
-  - [Usage](#usage)
-- [👥 Author](#author)
+- [💻 Features](#features)
+- [🛠 Technologies](#technologies)
+- [🚀 Live Demo](#live-demo)
 - [🔭 Future Features](#future-features)
+- [👤 Author](#author)
 - [🙏 Acknowledgement](#acknowledgement)
 
 <!-- PROJECT OVERVIEW -->
@@ -23,7 +20,7 @@ This is the Capstone project for the Introduction to Software Engineering Progra
 
 <!-- Features and Functionalities-->
 
-### Features
+### 💻 Features
 
 Key Features: Local Storage for Form Data
 
@@ -33,7 +30,7 @@ Key Features: Local Storage for Form Data
 
 <!--Technologies used-->
 
-### Technologies
+### 🛠 Technologies
 
 I've created it using HTML, CSS and JavaScript.
 
@@ -47,7 +44,7 @@ I've created it using HTML, CSS and JavaScript.
 
 <!--Roadmap and future enhancements-->
 
-### Future Enhancements
+### 🔭 Future Enhancements
 
 - User-Friendly Reset Option For Form
 - Code Refactoring
