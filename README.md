@@ -1,4 +1,4 @@
-# PersonaL Portfolio Project
+# Personal Portfolio Website
 
 <!-- TABLE OF CONTENTS -->
 
