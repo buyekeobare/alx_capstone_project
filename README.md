@@ -1,4 +1,4 @@
-# Portfolio Project
+# PersonaL Portfolio Project
 
 <!-- TABLE OF CONTENTS -->
 
@@ -12,7 +12,7 @@
 - [👤 Contact](#contact)
 - [🙏 Acknowledgement](#acknowledgement)
 
-<!-- PROJECT OVERVIEW -->
+<!-- Project Overview -->
 
 ## 📖 Project Description
 
