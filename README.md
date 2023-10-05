@@ -1,0 +1,69 @@
+# Portfolio Project
+
+<!-- TABLE OF CONTENTS -->
+
+# 📗 Table of Contents
+
+- [📖 About the Project](#about-project)
+  - [🚀 Live Demo](#live-demo)
+- [💻 Getting Started](#getting-started)
+  - [Setup](#setup)
+  - [Prerequisites](#prerequisites)
+  - [Install](#install)
+  - [Usage](#usage)
+- [👥 Author](#author)
+- [🔭 Future Features](#future-features)
+- [🙏 Acknowledgement](#acknowledgement)
+
+<!-- PROJECT OVERVIEW -->
+
+# 📖 Project Description
+
+This is the Capstone project for the Introduction to Software Engineering Program! The project is my personal portfolio
+
+<!-- Features and Functionalities-->
+
+### Features
+
+Key Features: Local Storage for Form Data
+
+- Automatic Data Preservation: The implemented local storage functionality ensures that user-entered data in the form is automatically saved. Even if users navigate away from the page or accidentally refresh it, their input remains intact, providing a seamless experience.
+
+- Persistent User Sessions: Users can return to the form at a later time and find their previously entered data still available. This feature eliminates the need for users to re-enter information, enhancing user satisfaction and convenience.
+
+<!--Technologies used-->
+
+### Technologies
+
+I've created it using HTML, CSS and JavaScript.
+
+ <!--Demo-->
+
+## 🚀 Live Demo
+
+> link to the live demo.
+
+- [Live Demo Link]()
+
+<!--Roadmap and future enhancements-->
+
+### Future Enhancements
+
+- User-Friendly Reset Option For Form
+- Code Refactoring
+- Integration of Real Data
+
+<!--Contact Information -->
+
+## 👤 My contacts
+
+👤 Buyeke Obare
+
+- GitHub: [buyekeobare](https://github.com/buyekeobare)
+- Linkedin: [https://www.linkedin.com/in/buyeke-obare/]
+
+<!-- ACKNOWLEDGEMENTS -->
+
+## 🙏 Acknowledgment
+
+- Thank you Cole and Obed for being the best technical mentors. Every session was worth it.
