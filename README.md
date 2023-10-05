@@ -9,7 +9,7 @@
 - [🛠 Technologies](#technologies)
 - [🚀 Live Demo](#live-demo)
 - [🔭 Future Features](#future-features)
-- [👤 Author](#author)
+- [👤 Contact](#contact)
 - [🙏 Acknowledgement](#acknowledgement)
 
 <!-- PROJECT OVERVIEW -->
