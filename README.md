@@ -16,7 +16,7 @@
 
 ## 📖 Project Description
 
-This is the Capstone project for the Introduction to Software Engineering Program! The project is my personal portfolio
+This is the Capstone project for the Introduction to Software Engineering Program. The project is my personal portfolio website where I showcase my work in order to increase my visibility and presence to potentail employers.
 
 <!-- Features and Functionalities-->
 
