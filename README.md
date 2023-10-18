@@ -12,11 +12,28 @@
 - [👤 Contacts](#contacts)
 - [🙏 Acknowledgement](#acknowledgement)
 
-<!-- Project Overview -->
+<!-- About the Project -->
+
+## Project Overview
+
+This is the Capstone project for the Introduction to Software Engineering program [Introduction to Software Engineering Program](https://www.alxafrica.com/intro-to-software-engineering/) by [ALX Africa](alxafrica.com), required to graduate from the program.
+The project gives students an opportunity to apply the skills and knowledge earned from the program.
 
 ## 📖 Project Description
 
-This is the Capstone project for the Introduction to Software Engineering Program. The project is my personal portfolio website where I showcase my work in order to increase my visibility and presence to potentail employers.
+My capstone project is my personal portfolio website where I showcase my work in order to increase my visibility and presence to potentail employers.
+
+## Figma design
+
+The figma design showcase for the personal portfolio website:
+
+![prototype](./project_design_templates/prototype.png)
+
+## Flowchart
+
+The flowchart of the personal portfolio website:
+
+![flowchart](./project_design_templates/flowchart.png)
 
 <!-- Features and Functionalities-->
 
@@ -32,7 +49,11 @@ Key Features: Local Storage for Form Data
 
 ## 🛠 Technologies
 
-I've created it using HTML, CSS and JavaScript.
+The technologies I have used to create my personal portfolio website are:
+
+- HTML
+- CSS
+- JavaScript
 
  <!--Demo-->
 
@@ -59,7 +80,7 @@ I've created it using HTML, CSS and JavaScript.
 - GitHub: [buyekeobare](https://github.com/buyekeobare)
 - Linkedin: [https://www.linkedin.com/in/buyeke-obare/]
 
-<!-- ACKNOWLEDGEMENTS -->
+<!-- Acknowledgement -->
 
 ## 🙏 Acknowledgment
 
