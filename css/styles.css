@@ -511,6 +511,7 @@ flex-basis: 43%;
 @media (max-width: 768px) {
   #menu-icon {
     display: block;
+    color: var(--second-bg-color);
   }
 
   .navbar {
@@ -548,8 +549,8 @@ flex-basis: 43%;
   }
 
   .home-image img {
-    width: 70vw;
-    margin-top: 4rem;
+    width: 50vw;
+    margin-top: 2rem;
   }
 
   .about {
@@ -557,8 +558,8 @@ flex-basis: 43%;
   }
 
  .about-col-1 img {
-    width: 70vw;
-    margin-top: 4rem;
+    width: 50vw;
+    margin-top: 2rem;
   }
 
   .sub-title {
