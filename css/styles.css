@@ -134,10 +134,8 @@ span {
 
 .home-col-2 img {
   width: 30vw;
-  border-radius: 50%;
-  border: 25px solid var(--second-bg-color);
-  background: var(--main-color);
   margin-top: 30%;
+  border-radius: 50%;
 }
 
 .btn {
@@ -218,7 +216,7 @@ flex-basis: 43%;
 }
 
 .about-col-2 p {
-  font-size: 16px;
+  font-size: 18px;
   margin: 20px 0 30px;
 }
 
