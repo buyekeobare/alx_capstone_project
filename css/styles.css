@@ -96,6 +96,12 @@ span {
   width: 100%;
 }
 
+#menu-icon {
+  font-size: 3.6rem;
+  color: var(--text-color);
+  display: none;
+}
+
 /*Start of home section styling*/
 
 .home {
@@ -503,6 +509,10 @@ flex-basis: 43%;
 }
 
 @media (max-width: 768px) {
+  #menu-icon {
+    display: block;
+  }
+
   .navbar {
     position: absolute;
     top: 100%;
@@ -515,7 +525,7 @@ flex-basis: 43%;
     display: none;
   }
 
-  .navbar.active {
+ .navbar ul li .active {
     display: block;
   }
 
@@ -529,7 +539,7 @@ flex-basis: 43%;
     flex-direction: column;
   }
 
-  .home-content h3 {
+  .home-content p {
     font-size: 2.6rem;
   }
 
@@ -537,7 +547,7 @@ flex-basis: 43%;
     font-size: 5rem;
   }
 
-  .home-img img {
+  .home-image img {
     width: 70vw;
     margin-top: 4rem;
   }
@@ -546,16 +556,12 @@ flex-basis: 43%;
     flex-direction: column-reverse;
   }
 
-  .about img {
+ .about-col-1 img {
     width: 70vw;
     margin-top: 4rem;
   }
 
-  .services h2 {
-    margin-bottom: 3rem;
-  }
-
-  .portfolio h2 {
+  .sub-title {
     margin-bottom: 3rem;
   }
 
@@ -581,11 +587,11 @@ flex-basis: 43%;
 }
 
 @media (max-width: 365px) {
-  .home-img img {
+  .home-image img {
     width: 90vw;
   }
 
-  .about-img img {
+  .about-col-1 img {
     width: 90vw;
   }
 
