@@ -27,13 +27,13 @@ My capstone project is my personal portfolio website where I showcase my work in
 
 The figma design showcase for the personal portfolio website:
 
-![prototype](./project_design_templates/prototype.png)
+![prototype](./Project_design_templates/Prototype.png)
 
 ## Flowchart
 
 The flowchart of the personal portfolio website:
 
-![flowchart](./project_design_templates/flowchart.png)
+![flowchart](./Project_design_templates/Flowchart.png)
 
 <!-- Features and Functionalities-->
 
