@@ -213,7 +213,7 @@ flex-basis: 43%;
 /*Start of services section styling*/
 
 .sub-title {
-  font-size: 45px;
+  font-size: 4.5rem;
   font-weight: 600;
   display: flex;
   justify-content: center;
@@ -221,7 +221,7 @@ flex-basis: 43%;
 }
 
 .services h2 {
-  margin-bottom: 50px;
+  margin-bottom: 5rem;
 }
 
 .services-container {
@@ -253,7 +253,7 @@ flex-basis: 43%;
 }
 
 .services-box h3 {
-  font-size: 24px;
+  font-size: 2.4rem;
 }
 
 .services-box p {
@@ -264,7 +264,7 @@ flex-basis: 43%;
 .three {
   background: transparent;
   color: var(--text-color);
-  font-size: 18px;
+  font-size: 1.8rem;
 }
 
 .three:hover {
@@ -281,7 +281,7 @@ flex-basis: 43%;
 }
 
 .portfolio h2 {
-  margin-bottom: 40px;
+  margin-bottom: 4rem;
 }
 
 .portfolio-container {
@@ -358,7 +358,7 @@ flex-basis: 43%;
 /*Start of contact section styling*/
 
 .contact h2 {
-  margin-bottom: 16px;
+  margin-bottom: 1.6rem;
 }
 
 .contact form {
@@ -396,8 +396,8 @@ flex-basis: 43%;
 .four {
   background: var(--main-color);
   color: var(--second-bg-color);
-  font-size: 18px;
-  margin-top: 20px;
+  font-size: 11.8rem;;
+  margin-top: 2rem;
 }
 
 .four:hover {
