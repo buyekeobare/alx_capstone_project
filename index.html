@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Linet Obare - Portfolio</title>
+  <title>Portfolio</title>
   <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
   <link rel="stylesheet" href="css/styles.css">
 </head>
@@ -38,13 +38,13 @@
 
   <!--home section-->
   <section class="home" id="home">
-    <div class="container">
+    <div class="home-container">
       <div class="row">
         <div class="home-col-1">
           <h1>Hello! <br />I'm Linet Obare</h1>
           <p>Software Developer</p>
-          <a href="#" class="btn one">Download CV</a>
-          <a href="#" class="btn two">Hire me</a>
+          <a href="#" class="btn home-btn-1">Download CV</a>
+          <a href="#" class="btn home-btn-2">Hire me</a>
         </div>
         <div class="home-col-2">
           <img src="images/Buyeke.jpeg" alt="">
@@ -57,13 +57,13 @@
 
   <!--about section-->
   <section class="about" id="about">
-    <div class="container">
+    <div class="about-container">
       <div class="row">
         <div class="about-col-1">
           <img src="images/Buyeke_1.png" alt="">
         </div>
         <div class="about-col-2">
-          <h2>About Me</h2>
+          <h2 class="title">About Me</h2>
           <h3>
             I'm Linet from Kenya and I'm a Software Developer.
           </h3>
@@ -71,6 +71,7 @@
             The world is moving into the future at a fast pace, and technology is at the heart of it all.
             From fintech in Finance to AI, which is trying to solve real-world problems, having tech knoweldge and background is something that I consider sacred.
           </p>
+          <a href="#" class="btn about-btn">Read More</a>
         </div>
       </div>   
     </div>
@@ -80,25 +81,29 @@
 
   <!--services section-->
   <section class="services" id="services">
-    <h2 class="sub-title">My Services</h2>
     <div class="services-container">
-      <div class="services-box">
-        <i class='bx bx-code-alt'></i>
-        <h3>Web Development</h3>
-        <p>Front-end web development.
+      
+      <h2 class="title">My Services</h2>
+      
+      <div class="services-content">
+        
+        <div class="services-list">
+          <i class='bx bx-code-alt'></i>
+          <h3>Web Development</h3>
+          <p>Front-end web development.
           Back-end web development.
           Full-stack web development.
           Web designer. 
           Web programmer.
           Content developer.
           Webmaster.</p>
-        <a href="#" class="btn three">Read More</a>
-      </div>
-
-      <div class="services-box">
-        <i class='bx bx-shekel'></i>
-        <h3>Lean Six Sigma</h3>
-        <p>Web Design.
+          <a href="#" class="btn services-btn">Read More</a>
+        </div>
+        
+        <div class="services-list">
+          <i class='bx bx-shekel'></i>
+          <h3>Lean Six Sigma</h3>
+          <p>Web Design.
           UI and Interactive Design.
           Advertising and Marketing Design.
           Motion Graphics and Animation.
@@ -106,16 +111,19 @@
           Game Design.
           Illustration.
           Publication and Typographic Design.</p>
-        <a href="#" class="btn three">Read More</a>
+          <a href="#" class="btn services-btn">Read More</a>
+        </div>
+        
+        <div class="services-list">
+          <i class='bx bx-bar-chart-alt'></i>
+          <h3>Agile Project Management</h3>
+          <p> Search Engine Optimization, Pay-per-Click, Social Media Marketing, Content Marketing, Email Marketing,
+          Mobile Marketing, Marketing Analytics and Affiliate Marketing .</p>
+          <a href="#" class="btn services-btn">Read More</a>
+        </div>
+
       </div>
 
-      <div class="services-box">
-        <i class='bx bx-bar-chart-alt'></i>
-        <h3>Agile Project Management</h3>
-        <p> Search Engine Optimization, Pay-per-Click, Social Media Marketing, Content Marketing, Email Marketing,
-          Mobile Marketing, Marketing Analytics and Affiliate Marketing .</p>
-        <a href="#" class="btn three">Read More</a>
-      </div>
     </div>
   </section>
 
@@ -124,7 +132,15 @@
   <!--portfolio section-->
 
   <section class="portfolio" id="portfolio">
-    <h2 class="sub-title">My Portfolio</h2>
+    <h2 class="title">My Portfolio</h2>
+    <div class="skills">
+      <a href="#html" class="btn portfolio-btn">HTML</a>
+      <a href="#css" class="btn portfolio-btn">CSS</a>
+      <a href="#python" class="btn portfolio-btn">Python</a>
+      <a href="#mysql" class="btn portfolio-btn">MySQL</a>
+      <a href="#javascript" class="btn portfolio-btn">JavaScript</a>
+      <a href="#flask" class="btn portfolio-btn">Flask</a>
+    </div>
 
     <div class="portfolio-container">
       <div class="portfolio-box">
@@ -189,7 +205,7 @@
   <!--start of contact section-->
   <div class="form">
     <section class="contact" id="contact">
-      <h2 class="sub-title">Contact Me</h2>
+      <h2 class="title">Contact Me</h2>
       <form action="https://formsubmit.co/buyekeobare@gmail.com" method="POST">
         <div class="input-box">
           <input type="text" placeholder="Full Name">
@@ -203,7 +219,7 @@
         <input type="hidden" name="_subject" value="New submission!">
         <input type="text" name="_honey" style="display:none">
         <input type="hidden" name="_next" value="https://yourdomain.co/thanks.html">
-        <input type="submit" value="Send Message" class="btn four">
+        <input type="submit" value="Send Message" class="btn contact-btn">
       </form>
     </section>
   </div>
