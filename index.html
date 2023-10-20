@@ -16,17 +16,19 @@
   <header class="header">
     <a href="" class="logo">Linet<span>ech</span>
     </a>
-    <i class='bx bx-menu' id="menu-icon"></i>
-
+    
     <!--start of navigation links-->
+
     <nav class="nav-item">
-      <ul>
+      <ul id="sidemenu">
         <li><a href="#home" class="active">Home</a></li>
         <li><a href="#about">About</a></li>
         <li><a href="#skills">Skills</a></li>
         <li><a href="#projects">Projects</a></li>
         <li><a href="#contact">Contact</a></li>
+        <i class='bx bx-x' onclick="closemenu()"></i>
       </ul>
+      <i class='bx bx-menu' onclick="openmenu()"></i>
     </nav>
     <!--end of navigation links-->
 

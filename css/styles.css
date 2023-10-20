@@ -61,7 +61,7 @@ span {
   color: var(--bg-color);
 }
 
-#menu-icon {
+.nav-item i {
   font-size: 3.6rem;
   color: var(--second-bg-color);
   display: none;
@@ -552,11 +552,11 @@ form textarea {
     padding: 10rem 3% 2rem;
   }
 
-  .services {
+  .skills {
     padding-bottom: 7rem;
   }
 
-  .portfolio {
+  .projects {
     padding-bottom: 7rem;
   }
 
@@ -570,24 +570,33 @@ form textarea {
 }
 
 @media (max-width: 768px) {
-  #menu-icon {
+  .nav-item i {
+    font-size: 1.8rem;
     display: block;
   }
 
-  .nav-item {
+  .nav-item ul  {
+    background: var(--main-color);
+    position: fixed;
+    top: 0;
+    right: -200px;
+    width: 200px;
+    height: 100vh;
+    padding-top: 50px;
+    z-index: 2;
+    transition: right .5s;
+  }
+
+  .nav-item ul li {
+    display: block;
+    margin: 25px;
+  }
+
+  .nav-item ul i {
     position: absolute;
-    top: 100%;
-    left: 0;
-    width: 100%;
-    padding: 1rem 3%;
-    background: var(--bg-color);
-    border-top: .1rem solid rgba(0, 0, 0, .2);
-    box-shadow: 0.5rem 1rem rgba(0, 0, 0, .2);
-    display: none;
-  }
-
- .nav-item ul li .active {
-    display: block;
+    top:25px;
+    left: 25px;
+    cursor: pointer;
   }
 
   .nav-item a {
@@ -596,7 +605,7 @@ form textarea {
     margin: 3rem 0;
   }
 
-  .home {
+  .home.container {
     flex-direction: column;
   }
 
@@ -617,27 +626,42 @@ form textarea {
     margin-top: 2rem;
   }
 
-  .about {
+  .about-container {
     flex-direction: column-reverse;
   }
 
+
  .about-col-1 img {
     width: 35vw;
-    margin-top: 2rem;
+    margin-top: 3rem;
+  }
+
+  .about-col-2 h3 {
+    font-size: 1.2rem;
+  }
+
+  .about-col-2 p {
+    font-size: 1rem;
+  }
+ 
+
+  .about-col-2 {
+    flex-basis: 100%;
   }
 
   .title {
+    font-size: 2.2rem;
     margin-bottom: 3rem;
   }
 
-  .projects-container {
-    grid-template-columns: 100px 100px 100px;
+  .projects-list {
+    grid-template-columns: 100px 100px;
   }
 }
 
 @media (max-width: 617px) {
-  .projects-container {
-    grid-template-columns: 1fr;
+  .projects-list {
+    grid-template-columns: 100px;
   }
 }
 
@@ -646,7 +670,11 @@ form textarea {
     font-size: 50%;
   }
 
-  .contact form .input-box input {
+  .contact-col-1, .contact-col-2 {
+    flex-basis: 100;
+  }
+
+  .contact-col-2 form .input-box input {
     width: 100%;
   }
 }
