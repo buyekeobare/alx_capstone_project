@@ -651,7 +651,11 @@ form textarea {
 
   .title {
     font-size: 2.2rem;
-    margin-bottom: 2rem;
+    margin-bottom: 3rem;
+  }
+
+  .projects-content {
+    flex-direction: column-reverse;
   }
 
   .projects-list {
