@@ -347,7 +347,7 @@ border-radius: 30px;
   grid-template-columns: 200px 200px 200px; /* create three columns of equal width */
   justify-content: center;
   align-items: center;
-  gap: 4rem;
+  grid-gap: 4rem;
 }
 
 .projects-list .projects {
