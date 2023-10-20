@@ -23,13 +23,13 @@
       <ul>
         <li><a href="#home" class="active">Home</a></li>
         <li><a href="#about">About</a></li>
-        <li><a href="#services">Services</a></li>
-        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
         <li><a href="#contact">Contact</a></li>
       </ul>
     </nav>
     <!--end of navigation links-->
-    
+
   </header>
   <!------------------end of header section--------------->
 
@@ -74,15 +74,15 @@
   </section>
   <!--------------end of about section-------------------->
 
-  <!--------------start of services section--------------->
-  <section class="services" id="services">
-    <div class="services-container">
+  <!--------------start of skills section--------------->
+  <section class="skills" id="skills">
+    <div class="skills-container">
       
-      <h2 class="title">My Services</h2>
+      <h2 class="title">My Skills</h2>
       
-      <div class="services-content">
+      <div class="skills-content">
         
-        <div class="services-list">
+        <div class="skills-list">
           <i class='bx bx-code-alt'></i>
           <h3>Web Development</h3>
           <p>Front-end web development.
@@ -92,10 +92,10 @@
           Web programmer.
           Content developer.
           Webmaster.</p>
-          <a href="#" class="btn services-btn">Read More</a>
+          <a href="#" class="btn skills-btn">Read More</a>
         </div>
         
-        <div class="services-list">
+        <div class="skills-list">
           <i class='bx bx-shekel'></i>
           <h3>Lean Six Sigma</h3>
           <p>Web Design.
@@ -106,38 +106,38 @@
           Game Design.
           Illustration.
           Publication and Typographic Design.</p>
-          <a href="#" class="btn services-btn">Read More</a>
+          <a href="#" class="btn skills-btn">Read More</a>
         </div>
         
-        <div class="services-list">
+        <div class="skills-list">
           <i class='bx bx-bar-chart-alt'></i>
           <h3>Agile Project Management</h3>
           <p> Search Engine Optimization, Pay-per-Click, Social Media Marketing, Content Marketing, Email Marketing,
           Mobile Marketing, Marketing Analytics and Affiliate Marketing .</p>
-          <a href="#" class="btn services-btn">Read More</a>
+          <a href="#" class="btn skills-btn">Read More</a>
         </div>
 
       </div>
 
     </div>
   </section>
-  <!-------------end of services section---------------->
+  <!-------------end of skills section---------------->
 
-  <!-------------start of portfolio section-------------->
-  <section class="portfolio" id="portfolio">
+  <!-------------start of projects section-------------->
+  <section class="projects" id="projects">
     <div class="projects-container">
       <h2 class="title">My Projects</h2>
-      <div class="skills">
-        <a href="https://github.com/buyekeobare/alx_html_css" class="btn skills-btn" target="_blank">HTML</a>
-        <a href="https://github.com/buyekeobare/alx_html_css" class="btn skills-btn" target="_blank">CSS</a>
-        <a href="https://github.com/buyekeobare/alx_python" class="btn skills-btn" target="_blank">Python</a>
-        <a href="https://github.com/buyekeobare/alx_database" class="btn skills-btn" target="_blank">MySQL</a>
-        <a href="https://github.com/buyekeobare/alx_javascript" class="btn skills-btn" target="_blank">JavaScript</a>
-        <a href="https://github.com/buyekeobare/alx_python" class="btn skills-btn" target="_blank">Flask</a>
+      <div class="projects-links">
+        <a href="https://github.com/buyekeobare/alx_html_css" class="btn projects-btn" target="_blank">HTML</a>
+        <a href="https://github.com/buyekeobare/alx_html_css" class="btn projects-btn" target="_blank">CSS</a>
+        <a href="https://github.com/buyekeobare/alx_python" class="btn projects-btn" target="_blank">Python</a>
+        <a href="https://github.com/buyekeobare/alx_database" class="btn projects-btn" target="_blank">MySQL</a>
+        <a href="https://github.com/buyekeobare/alx_javascript" class="btn projects-btn" target="_blank">JavaScript</a>
+        <a href="https://github.com/buyekeobare/alx_python" class="btn projects-btn" target="_blank">Flask</a>
       </div>
 
       <div class="projects-list">
-        <div class="projects">
+        <div class="project-preview">
           <img src="images/Project-1.jpeg" alt="">
           <div class="project-layer">
             <h4>Digital Clock</h4>
@@ -146,7 +146,7 @@
           </div>
         </div>
 
-        <div class="projects">
+        <div class="project-preview">
           <img src="images/Project-2.jpeg" alt="">
           <div class="project-layer">
             <h4>Landing Page</h4>
@@ -155,7 +155,7 @@
           </div>
         </div>
         
-        <div class="projects">
+        <div class="project-preview">
           <img src="images/Project-3.jpeg" alt="">
           <div class="project-layer">
             <h4>Traffic Signals</h4>
@@ -167,29 +167,40 @@
       </div>
     </div>
   </section>
-  <!-------------end of portfolio section----------------->
+  <!-------------end of projects section----------------->
 
   <!--------------start of contact section----------------->
-  <div class="form">
     <section class="contact" id="contact">
-      <h2 class="title">Contact me</h2>
+      <div class="contact-container">
+        <div class="row">
+
+          <div class="contact-col-1">
+            <h2 class="title">Contact me</h2>
+            <p><i class='bx bx-envelope'></i>buyekeobare@gmail.com</p>
+            <p><i class='bx bx-phone'></i>+254732025395</p>
+          </div>
+
+          <div class="contact-col-2">       
       <form action="https://formsubmit.co/buyekeobare@gmail.com" method="POST">
         <div class="input-box">
-          <input type="text" placeholder="Full Name">
-          <input type="email" placeholder="Email Address">
+          <input type="text" name="name" placeholder="Full Name" required>
+          <input type="email" name="email" placeholder="Email Address" required>
         </div>
         <div class="input-box">
           <input type="number" placeholder="Mobile Number">
           <input type="text" placeholder="Email Subject">
         </div>
-        <textarea name="" id="" cols="30" rows="10" placeholder="Write your message here"></textarea>
+        <textarea name="message" id="" cols="30" rows="10" placeholder="Write your message here"></textarea>
         <input type="hidden" name="_subject" value="New submission!">
         <input type="text" name="_honey" style="display:none">
         <input type="hidden" name="_next" value="https://yourdomain.co/thanks.html">
         <input type="submit" value="Get In Touch" class="btn contact-btn">
       </form>
+    </div>
+
+      </div>
+      </div>
     </section>
-  </div>
   <!-----------------end of contact section------------------>
 
   <!--------------------start of footer section--------------->
