@@ -654,10 +654,6 @@ form textarea {
     margin-bottom: 3rem;
   }
 
-  .projects-content {
-    flex-direction: column-reverse;
-  }
-
   .projects-list {
     grid-template-columns: 100px 100px;
   }
