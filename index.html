@@ -11,39 +11,35 @@
 </head>
 
 <body>
-
-  <!------------start of header section-------------->
+  <!------------------start of home section--------------->
+  <!--header-->
   <header class="header">
-    <a href="" class="logo">Linet<span>ech</span>
-    </a>
-    
-    <!--start of navigation links-->
+    <div class="header-container">
 
-    <nav class="nav-item">
-      <ul id="sidemenu">
-        <li><a href="#home" class="active">Home</a></li>
-        <li><a href="#about">About</a></li>
-        <li><a href="#skills">Skills</a></li>
-        <li><a href="#projects">Projects</a></li>
-        <li><a href="#contact">Contact</a></li>
-        <i class='bx bx-x nav-icon' onclick="closemenu()"></i>
-      </ul>
-      <i class='bx bx-menu nav-icon' onclick="openmenu()"></i>
-    </nav>
-    <!--end of navigation links-->
+      <!--navigation links-->
+      <nav class="nav-items">
+        <a href="" class="logo">Linet<span>ech</span></a>
+        <ul id="menu">
+          <li><a href="#home" class="active">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <i class='bx bx-x nav-icon' onclick="closemenu()"></i>
+        </ul>
+        <i class='bx bx-menu nav-icon' onclick="openmenu()"></i>
+      </nav>
 
+    </div>
   </header>
-  <!------------------end of header section--------------->
 
-  <!----------------start of home section------------------>
   <section class="home" id="home">
     <div class="home-container">
       <div class="row">
         <div class="home-col-1">
           <h1>Hello! <br />I'm Linet Obare</h1>
           <p>Software Developer</p>
-          <a href="#" class="btn home-btn-1">Download CV</a>
-          <a href="#" class="btn home-btn-2">Hire me</a>
+          <a href="#" class="btn btn-1">Download CV</a>
         </div>
         <div class="home-col-2">
           <img src="images/Buyeke.jpeg" alt="">
@@ -51,7 +47,7 @@
       </div>
     </div>
   </section>
-  <!----------------end of home section---------------->
+  <!---------------end of home section-------------->
 
   <!---------------start of about section-------------->
   <section class="about" id="about">
@@ -65,106 +61,94 @@
           <h3>
             I'm Linet from Kenya and I'm a Software Developer.
           </h3>
-          <p>I'm a creative and optimistic person, and I believe that solutions to most of the challenges that we face in our societies today do exist.
+          <p>I'm a creative and optimistic person, and I believe that solutions to most of the challenges that we face
+            in
+            our societies today do exist.
             The world is moving into the future at a fast pace, and technology is at the heart of it all.
-            From fintech in Finance to AI, which is trying to solve real-world problems, having tech knoweldge and background is something that I consider sacred.
+            From fintech in Finance to AI, which is trying to solve real-world problems, having tech knoweldge and
+            background is something that I consider sacred.
           </p>
-          <a href="#" class="btn about-btn">Read More</a>
         </div>
-      </div>   
+      </div>
     </div>
   </section>
   <!--------------end of about section-------------------->
 
-  <!--------------start of skills section--------------->
+  <!--------------start of skills section-------------------->
   <section class="skills" id="skills">
     <div class="skills-container">
-      
       <h2 class="title">My Skills</h2>
-      
-      <div class="skills-content">
-        
-        <div class="skills-list">
-          <i class='bx bx-code-alt'></i>
-          <h3>Web Development</h3>
-          <p>Front-end web development.
-          Back-end web development.
-          Full-stack web development.
-          Web designer. 
-          Web programmer.
-          Content developer.
-          Webmaster.</p>
-          <a href="#" class="btn skills-btn">Read More</a>
+      <div class="skills-list">
+
+        <div class="skills-box">
+          <img src="images/HTML5.png" alt="">
+          <h3>HTML 5</h3>
+          <p>Web development, coding</p>
+          <a href="https://github.com/buyekeobare/alx_html_css" class="btn btn-2">Read more</a>
         </div>
-        
-        <div class="skills-list">
-          <i class='bx bx-shekel'></i>
-          <h3>Lean Six Sigma</h3>
-          <p>Web Design.
-          UI and Interactive Design.
-          Advertising and Marketing Design.
-          Motion Graphics and Animation.
-          Packaging Design.
-          Game Design.
-          Illustration.
-          Publication and Typographic Design.</p>
-          <a href="#" class="btn skills-btn">Read More</a>
+
+        <div class="skills-box">
+          <img src="images/CSS3.png" alt="">
+          <h3>CSS 3</h3>
+          <p>Web development, coding</p>
+          <a href="https://github.com/buyekeobare/alx_html_css" class="btn btn-2">Read more</a>
         </div>
-        
-        <div class="skills-list">
-          <i class='bx bx-bar-chart-alt'></i>
-          <h3>Agile Project Management</h3>
-          <p> Search Engine Optimization, Pay-per-Click, Social Media Marketing, Content Marketing, Email Marketing,
-          Mobile Marketing, Marketing Analytics and Affiliate Marketing .</p>
-          <a href="#" class="btn skills-btn">Read More</a>
+
+        <div class="skills-box">
+          <img src="images/JavaScript.png" alt="">
+          <h3>JavaScript</h3>
+          <p>Front-end web development, API</p>
+          <a href="https://github.com/buyekeobare/alx_javascript" class="btn btn-2">Read more</a>
+        </div>
+
+        <div class="skills-box">
+          <img src="images/Python.png" alt="">
+          <h3>Python</h3>
+          <p>Web development frameworks (Flask), Database management (MySQL), Object-oriented programming (OOP)</p>
+          <a href="https://github.com/buyekeobare/alx_python" class="btn btn-2">Read more</a>
         </div>
 
       </div>
 
     </div>
   </section>
-  <!-------------end of skills section---------------->
+  <!--------------end of skills section-------------------->
 
   <!-------------start of projects section-------------->
   <section class="projects" id="projects">
     <div class="projects-container">
       <h2 class="title">My Projects</h2>
-      <div class="projects-links">
-        <a href="https://github.com/buyekeobare/alx_html_css" class="btn projects-btn" target="_blank">HTML</a>
-        <a href="https://github.com/buyekeobare/alx_html_css" class="btn projects-btn" target="_blank">CSS</a>
-        <a href="https://github.com/buyekeobare/alx_python" class="btn projects-btn" target="_blank">Python</a>
-        <a href="https://github.com/buyekeobare/alx_database" class="btn projects-btn" target="_blank">MySQL</a>
-        <a href="https://github.com/buyekeobare/alx_javascript" class="btn projects-btn" target="_blank">JavaScript</a>
-        <a href="https://github.com/buyekeobare/alx_python" class="btn projects-btn" target="_blank">Flask</a>
-      </div>
-
       <div class="projects-list">
-        <div class="project-preview">
-          <img src="images/Project-1.jpeg" alt="">
+
+        <div class="project-box">
+          <img src="images/project-1.jpg" alt="">
           <div class="project-layer">
-            <h4>Digital Clock</h4>
+            <h3>Digital Clock</h3>
             <p>This is a digital clock chrome extension.</p>
-            <a href="https://htmlpreview.github.io/?https://github.com/buyekeobare/javascript/blob/main/chrome-extension/index.html" target="_blank"><i class='bx bx-link-external'></i></a>
+            <a href="https://htmlpreview.github.io/?https://github.com/buyekeobare/javascript/blob/main/chrome-extension/index.html"
+              target="_blank"><i class='bx bx-link-external'></i></a>
           </div>
         </div>
 
-        <div class="project-preview">
-          <img src="images/Project-2.jpeg" alt="">
+        <div class="project-box">
+          <img src="images/project-2.jpeg" alt="">
           <div class="project-layer">
-            <h4>Landing Page</h4>
+            <h3>Landing Page</h3>
             <p>This is a fashion blog landing page for future project.</p>
-            <a href="https://htmlpreview.github.io/?https://github.com/buyekeobare/shecodes_basics/blob/main/shecodes-basics-final-project.html" target="_blank"><i class='bx bx-link-external'></i></a>
+            <a href="https://htmlpreview.github.io/?https://github.com/buyekeobare/shecodes_basics/blob/main/shecodes-basics-final-project.html"
+              target="_blank"><i class='bx bx-link-external'></i></a>
           </div>
         </div>
-        
-        <div class="project-preview">
-          <img src="images/Project-3.jpeg" alt="">
+
+        <div class="project-box">
+          <img src="images/project-3.jpg" alt="">
           <div class="project-layer">
-            <h4>Traffic Signals</h4>
+            <h3>Traffic Signals</h3>
             <p>This is an automatic traffic signal.</p>
-            <a href="https://htmlpreview.github.io/?https://github.com/buyekeobare/javascript/blob/main/Cookies_Local_Storage/traffic.html" target="_blank"><i class='bx bx-link-external'></i></a>
-        </div>
+            <a href="https://htmlpreview.github.io/?https://github.com/buyekeobare/javascript/blob/main/Cookies_Local_Storage/traffic.html"
+              target="_blank"><i class='bx bx-link-external'></i></a>
           </div>
+        </div>
 
       </div>
     </div>
@@ -172,37 +156,34 @@
   <!-------------end of projects section----------------->
 
   <!--------------start of contact section----------------->
-    <section class="contact" id="contact">
-      <div class="contact-container">
-        <div class="row">
+  <section class="contact" id="contact">
+    <div class="contact-container">
+      <div class="row">
 
-          <div class="contact-col-1">
-            <h2 class="title">Contact me</h2>
-            <p><i class='bx bx-envelope'></i>buyekeobare@gmail.com</p>
-            <p><i class='bx bx-phone'></i>+254732025395</p>
-          </div>
+        <div class="contact-col-1">
+          <h2 class="title">Contact me</h2>
+          <p><i class='bx bx-envelope'></i>buyekeobare@gmail.com</p>
+          <p><i class='bx bx-phone'></i>+254732025395</p>
+        </div>
 
-          <div class="contact-col-2">       
-      <form id="contact-form" action="sendmail.php" method="POST">
-        <div class="input-box">
-          <input type="text" name="name" placeholder="Full Name" required>
-          <input type="email" name="email" placeholder="Email Address" required>
+        <div class="contact-col-2">
+          <form id="Form" action="https://formsubmit.co/cffea66cf3c9ca7d5159c791474a41d0" method="POST">
+            <div class="input-box">
+              <input type="text" id="fullName" name="fullName" placeholder="Full Name" required>
+              <input type="email" id="email" name="email" placeholder="Email Address" required>
+            </div>
+            <textarea id="message" name="message" cols="30" rows="10" placeholder="Write your message here"
+              required></textarea>
+            <input type="hidden" name="_subject" value="New submission!">
+            <input type="text" name="_honey" style="display:none">
+            <input type="hidden" name="_next" value="">
+            <input type="submit" value="Get In Touch" class="btn btn-3">
+          </form>
         </div>
-        <div class="input-box">
-          <input type="number" name="phone" placeholder="Mobile Number">
-          <input type="text" name="subject" placeholder="Email Subject">
-        </div>
-        <textarea name="message" cols="30" rows="10" placeholder="Write your message here"></textarea>
-        <input type="hidden" name="_subject" value="New submission!">
-        <input type="text" name="_honey" style="display:none">
-        <input type="hidden" name="_next" value="https://yourdomain.co/thanks.html">
-        <input type="submit" value="Get In Touch" class="btn contact-btn">
-      </form>
+
+      </div>
     </div>
-
-      </div>
-      </div>
-    </section>
+  </section>
   <!-----------------end of contact section------------------>
 
   <!--------------------start of footer section--------------->

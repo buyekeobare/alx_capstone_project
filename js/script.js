@@ -1,5 +1,5 @@
 /*=============== toggle icon navbar ================*/
-const menu = document.getElementById("sidemenu");
+const menu = document.getElementById("menu");
 
 function openmenu(){
     menu.style.right = "0";
@@ -9,32 +9,39 @@ function closemenu() {
     menu.style.right = "-200px";
 }
 
-if ($_SERVER["REQUEST_METHOD"] == "POST") {
-    if (
-        !empty($_POST['name'])
-        && !empty($_POST['email'])
-        && !empty($_POST['message'])
+const form = document.getElementById("form");
+const fullName = document.getElementById("fullName");
+const email = document.getElementById("email");
+const phoneNumber = document.getElementById("phone");
+const subject = document.getElementById("subject");
+const message = document.getElementById("mesage");
 
-    ){
-        $name = $_POST ["name"];
-        $name = $_POST ["email"];
-        $name = $_POST ["phone"];
-        $name = $_POST ["subject"];
-        $name = $_POST ["message"];
+form.addEventListener('submit', e => {
+    e.preventDefault();
 
-        $to = "buyeke@gmail.com";
-        $subject = "New Conatct Form Submission";
-        $body = "Name : {$name}\nEmail: {$email}\nPhone: {$phone}\nMessage: {$message}";
-        $header = "From: {$email}";
+    validateInputs();
+});
 
-        if (mail($to, $subject, $body, $headers)) {
-            alert ("Message sent successfully!");
-
-        } else {
-            alert ("Failed to send message.");
-        }
-    }
+const validateInputs = () => {
+    const fullNameValue = fullName.value.trim();
+    const emailValue = email.value.trim();
+    const phoneNumberValue = phone.value.trim();
+    const subjectValue = subject.value.trim();
+    const messageValue = message.value.trim();
 
 }
+
+
+    
+
+    
+
+
+
+
+
+
+
+
 
 
