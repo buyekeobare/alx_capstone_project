@@ -37,7 +37,7 @@ header {
 }
 
 header.sticky {
-  padding: 5px 100px;
+  padding: 15px 0;
   background: var(--main-color);
 }
 
@@ -534,7 +534,6 @@ form .btn-3:hover {
   .nav-items ul li {
     display: block;
     margin: 25px;
-    color: var(--second-bg-color);
   }
 
   .nav-items ul .nav-icon {
