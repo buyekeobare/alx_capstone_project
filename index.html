@@ -13,7 +13,7 @@
 <body>
   <!------------------start of home section--------------->
   <!--header-->
-  <header class="header">
+  <header>
     <div class="header-container">
 
       <!--navigation links-->
@@ -149,7 +149,7 @@
               target="_blank"><i class='bx bx-link-external'></i></a>
           </div>
         </div>   
-        
+
       </div>
     </div>
   </section>
@@ -167,17 +167,18 @@
         </div>
 
         <div class="contact-col-2">
-          <form id="Form" action="https://formsubmit.co/cffea66cf3c9ca7d5159c791474a41d0" method="POST">
+          <form name="form" action="https://formsubmit.co/cffea66cf3c9ca7d5159c791474a41d0" method="POST">
             <div class="input-box">
-              <input type="text" id="fullName" name="fullName" placeholder="Full Name" required>
-              <input type="email" id="email" name="email" placeholder="Email Address" required>
+              <input type="text" name="name" placeholder="Name" required>
+              <small class="error">Please enter your name</small>
+              <input type="email"  name="email" placeholder="Email Address" required>
+              <small class="error">Please enter your email</small>
             </div>
-            <textarea id="message" name="message" cols="30" rows="10" placeholder="Write your message here"
-              required></textarea>
-            <input type="hidden" name="_subject" value="New submission!">
-            <input type="text" name="_honey" style="display:none">
-            <input type="hidden" name="_next" value="">
-            <input type="submit" value="Get In Touch" class="btn btn-3">
+            <div class="form-box">
+            <textarea name="message" rows="10" placeholder="Write your message here" required></textarea>
+            <small class="error">Please enter your message</small>
+            </div>
+            <input type="submit" name="submit" value="Get In Touch" class="btn btn-3">
           </form>
         </div>
 

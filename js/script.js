@@ -9,28 +9,28 @@ function closemenu() {
     menu.style.right = "-200px";
 }
 
-const form = document.getElementById("form");
-const fullName = document.getElementById("fullName");
-const email = document.getElementById("email");
-const phoneNumber = document.getElementById("phone");
-const subject = document.getElementById("subject");
-const message = document.getElementById("mesage");
+    /*const name = document.getElementById("name");
+    const email = document.getElementById("email");
+    const message = document.getElementById("message");
+    const submit = document.getElementById("submit");
 
-form.addEventListener('submit', e => {
-    e.preventDefault();
+    submit.addEventListener('click', (e) =>{
+        e.preventDefault();
+        
+        if(name.value.trim() == ""){
+            error(name, "name cannot be empty");
+        }
+    })
 
-    validateInputs();
-});
+    function error(element, msg){
+        element.style.border = "1px solid #ff0000";
+    }*/
 
-const validateInputs = () => {
-    const fullNameValue = fullName.value.trim();
-    const emailValue = email.value.trim();
-    const phoneNumberValue = phone.value.trim();
-    const subjectValue = subject.value.trim();
-    const messageValue = message.value.trim();
-
-}
-
+   window.addEventListener("scroll", () => {
+    var header = document.querySelector("header");
+    header.classList.toggle("sticky", window.scrollY > 0);
+   })
+      
 
     
 
