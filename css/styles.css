@@ -521,6 +521,7 @@ form .btn-3:hover {
 
   .nav-items ul {
     background: var(--main-color);
+    color: var(--second-bg-color);
     position: fixed;
     top: 0;
     right: -200px;
@@ -534,7 +535,6 @@ form .btn-3:hover {
   .nav-items ul li {
     display: block;
     margin: 25px;
-    color: var(--second-bg-color);
   }
 
   .nav-items ul .nav-icon {
