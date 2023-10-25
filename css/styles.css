@@ -77,7 +77,7 @@ span {
 }
 
 .nav-items ul li a {
-  color: var(--second-bg-color);
+  color: var(--main-color);
   font-size: 18px;
   position: relative;
 }
@@ -534,6 +534,10 @@ form .btn-3:hover {
   .nav-items ul li {
     display: block;
     margin: 25px;
+  }
+
+  .nav-items ul li a {
+    color: var(--second-bg-color);
   }
 
   .nav-items ul .nav-icon {
