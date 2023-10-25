@@ -456,17 +456,8 @@ form .btn-3:hover {
 
 /* --------------end of footer styling-------------- */
 
-
-
-
-
-
-/* ------------------resposnsive query----------------*/
+/* ------------------media resposnsive query for small screens----------------*/
 @media only screen and (max-width: 600px) {
-
-  .home-col-1 {
-    margin-top: 100%;
-  }
 
   .home-col-1 h1 {
     font-size: 35px;
@@ -531,13 +522,13 @@ form .btn-3:hover {
     flex-basis: 100%;
   }
 
-    .skills {
-      padding: 20px;
-    }
+  .skills {
+    padding: 20px;
+  }
 
-        .projects {
-          padding: 20px;
-        }
+  .projects {
+    padding: 20px;
+  }
 
   .footer-text p {
     font-size: 14px;
