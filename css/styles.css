@@ -481,11 +481,6 @@ form .btn-3:hover {
     font-size: 25px;
   }
 
-
-  .skills {
-    padding: 20px;
-  }
-
   .nav-items ul {
     background: var(--main-color);
     position: fixed;
@@ -509,6 +504,10 @@ form .btn-3:hover {
     left: 25px;
   }
 
+  .home {
+    padding: 20px;
+  }
+
   .home-col-1,
   .home-col-2 {
     flex-basis: 100%;
@@ -516,6 +515,10 @@ form .btn-3:hover {
 
   .title {
     font-size: 35px;
+  }
+
+  .about {
+    padding: 20px;
   }
 
   .about-col-1,
@@ -527,6 +530,14 @@ form .btn-3:hover {
   .contact-col-2 {
     flex-basis: 100%;
   }
+
+    .skills {
+      padding: 20px;
+    }
+
+        .projects {
+          padding: 20px;
+        }
 
   .footer-text p {
     font-size: 14px;
