@@ -39,20 +39,26 @@ The flowchart of the personal portfolio website:
 
 ## 💻 Features
 
-Key Features: Local Storage for Form Data
+Key Features:
 
-- Automatic Data Preservation: The implemented local storage functionality ensures that user-entered data in the form is automatically saved. Even if users navigate away from the page or accidentally refresh it, their input remains intact, providing a seamless experience.
+- Downloadable CV for my potential clients to easily check my experience.
 
-- Persistent User Sessions: Users can return to the form at a later time and find their previously entered data still available. This feature eliminates the need for users to re-enter information, enhancing user satisfaction and convenience.
+- Sticky navbar to enable clients to quickly access the content they seek without always having to scroll to the top of the page.
+
+- Active contact form where clients can reach me.
+
+- Links to my github repositories and projects.
+
+- Validated contact Form in HTML and JavaScript
 
 <!--Technologies used-->
 
 ## 🛠 Technologies
 
-The technologies I have used to create my personal portfolio website are:
+Vanilla:
 
-- HTML
-- CSS
+- HTML5
+- CSS3
 - JavaScript
 
  <!--Demo-->
