@@ -421,9 +421,6 @@ form .btn-3 {
   padding: 10px 30px; 
 }
 
-
-
-
 form .btn-3:hover {
   background: var(--second-bg-color);
   color: var(--text-color);

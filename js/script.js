@@ -1,3 +1,10 @@
+/*=============== sticky bar ================*/
+window.addEventListener("scroll", () => {
+    const header = document.querySelector("header");
+    header.classList.toggle("sticky", window.scrollY > 0);
+})
+
+
 /*=============== toggle icon navbar ================*/
 const menu = document.getElementById("menu");
 
@@ -10,21 +17,14 @@ function closemenu() {
 }
 
 
-/*=============== sticky bar ================*/
-window.addEventListener("scroll", () => {
-    const header = document.querySelector("header");
-    header.classList.toggle("sticky", window.scrollY > 0);
-})
-
-
 /*=============== Contact Form validation ================*/
 
-// Get references to the form, name input, and email input
+// Get references to the form, name and email inputs
 
 document.addEventListener("DOMContentLoaded", function () {
   const form = document.getElementById("form");
   const nameInput = document.getElementById("fullName");
-  const emailInput = document.getElementById("email_id");
+  const emailInput = document.getElementById("email");
 
   // Add an event listener to the form element to handle form submission.
 
@@ -74,6 +74,58 @@ function validateForm(email) {
   // Check if the email matches the pattern
   return emailRegex.test(email);
 }
+
+
+
+
+
+
+
+//NOT responding
+
+/*===============Active Contact Form using emailjs================*/
+
+/*const form = document.querySelector("#form");
+const contactBtn = document.querySelector(".contact-btn");
+const nameInput = document.querySelector("#fullName");
+const emailInput = document.querySelector("#email");
+const messageInput = document.querySelector("#message");
+
+const publicKey = "SEudP2FCdOsRmBQqo";
+const serviceID = "service_epo1rot";
+const templateID = "template_2enhdj5"
+
+emailjs.init(publicKey);
+
+form.addEventListener("submit", e => {
+    e.preventDefault();
+
+    contactBtn.innerText = "Just A Moment...";
+    
+    const inputFields = {
+        fullName: nameInput.value,
+        email: emailInput.value,
+        message: messageInput.value,
+
+    }
+    emailjs.send(serviceID, templateID, inputFields)
+    .then(() => {
+        contactBtn.innerText = "Message Sent Successfully"; 
+
+        nameInput.value = "";
+        emailInput.value = "";
+        messageInput.value = "";
+    }, (error) => {
+        console.log(error);
+
+         contactBtn.innerText = "Something went wrong";
+    })
+})*/
+
+
+
+
+
 
 
 
